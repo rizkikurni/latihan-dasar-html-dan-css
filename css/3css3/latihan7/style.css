@@ -1,0 +1,23 @@
+.satu {
+    background-image: radial-gradient(red 30%, blue 40%, green 50%);
+    height: 400px;
+    width: 400px;
+}
+
+.dua {
+    background-image: radial-gradient(red 40px,blue 60px);
+    height: 400px;
+    width: 9 00px;
+}
+
+.tiga {
+    background-image: radial-gradient(circle farthest-side at top right ,red,black);
+    height: 400px;
+    width: 600px;
+}
+
+.empat {
+    background-image: linear-gradient(to left,red 30%,black 50%);
+    height: 400px;
+    width: 400px;
+}

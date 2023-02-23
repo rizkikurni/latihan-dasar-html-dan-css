@@ -1,0 +1,40 @@
+div {
+    height: 200px;
+    width: 200px;
+}
+
+.satu {
+    background-color: red;
+}
+
+.dua {
+    background-color: violet;
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+
+.tiga {
+    background-color: green;
+}
+
+div {
+    height: 200px;
+    width: 200px;
+}
+
+.satuu {
+    background-color: red;
+}
+
+.duaa {
+    background-color: rgb(130, 238, 220);
+    position: fixed;
+    top: 100px;
+    right: 0px;
+}
+
+.tigaa {
+    background-color: green;
+}
+

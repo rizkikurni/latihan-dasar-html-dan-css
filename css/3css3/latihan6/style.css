@@ -1,0 +1,23 @@
+.satu {
+    background-image: linear-gradient(red, blue, green);
+    height: 400px;
+    width: 400px;
+}
+
+.dua {
+    background-image: linear-gradient(90deg,red,blue);
+    height: 400px;
+    width: 400px;
+}
+
+.tiga {
+    background-image: linear-gradient(to left,red,black);
+    height: 400px;
+    width: 400px;
+}
+
+.empat {
+    background-image: linear-gradient(to left,red 80%,black 20%);
+    height: 400px;
+    width: 400px;
+}

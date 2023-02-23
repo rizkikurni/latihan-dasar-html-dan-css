@@ -1,0 +1,15 @@
+.padding {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    margin: auto;
+    padding-left: 200px;
+    border: 5px solid black;
+}
+
+.box {
+    background-color: blue;
+    width: 300px;
+    box-sizing: border-box;
+    border: 10px solid black;
+}

@@ -1,0 +1,37 @@
+.container {
+    width: 600px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 5px;
+}
+
+.container img {
+    float: left;
+    margin: 5px;
+}
+
+.clear {
+    clear: left;
+}
+
+.container2 {
+    width: 600px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 5px;
+}
+
+.kotak {
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    text-align: center;
+    font-size: 30px;
+    line-height: 100px;
+    margin: 5px;
+    float: left;
+}
+
+.clear2 {
+    clear: left;
+}

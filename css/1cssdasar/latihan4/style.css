@@ -1,0 +1,9 @@
+body {
+    background-color:burlywood;
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+p {
+    background: yellow url(logo.png) center no-repeat;
+}

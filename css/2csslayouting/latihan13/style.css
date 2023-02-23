@@ -1,0 +1,111 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*style*/
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading h1 {
+    background-color: rgb(41, 37, 70);
+    font-size: 50px;
+    color: white;
+    padding: 15px;
+	font-weight: bold;
+	position: fixed;
+	right: 0;
+	left: 0;
+	top: 0cm;
+}
+
+.heading ul {
+	background-color: rgb(41, 37, 70);
+	border-bottom: 5px solid salmon;
+	margin-top: 80px;
+}
+
+.heading ul li {
+    display: block;
+	float: left;
+	background-color: rgb(41, 37, 70);
+	padding: 15px 20px;
+}
+
+.heading ul li a {
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+	text-align: center;
+}
+
+.heading ul li:hover {
+	background-color: rgb(0, 74, 233);
+}
+
+.clear {
+	clear: left;
+}
+
+.judulkonten h3 {
+	margin-top: 30px;
+	margin-left: 10px;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.isi {
+	line-height: 1.7;
+}
+
+.isi img {
+	display: block;
+	margin: 20px auto;
+}
+
+.isi h3 {
+	font-size: 18px;
+	font-weight: bold;
+}

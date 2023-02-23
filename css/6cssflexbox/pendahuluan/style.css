@@ -1,0 +1,149 @@
+/*
+felx-direction untuk mengatur vertikal atau horizontal
+row untuk horizontal
+collum untuk vertikal
+
+flex-wrap saat container tidak muat akan ditaruh dibawahnya
+*/
+
+.container{
+ width: 600px;
+ border: 5px solid #666;
+ margin: 30px auto;
+ padding: 5px;
+ display: flex;
+ box-sizing: border-box;
+ flex-direction: row-reverse;
+ flex-wrap: wrap;
+}
+
+.container div {
+    width: 120px;
+    height: 120px;
+    background-color: blue;
+    margin: 2px;
+}
+
+/*
+justify-content
+flex start dimulai dari awal
+flex end dimulai dari akhir
+center tengah
+space between kanan kiri tengah
+space around margin kiri dan kanan sama
+space evenly marginnya sama rata
+*/
+
+.container2 {
+    width: 600px;
+    border: 5px solid #666;
+    margin: 30px auto;
+    padding: 5px;
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+   }
+
+   .container2 div {
+    width: 120px;
+    height: 120px;
+    background-color: blue;
+    margin: 2px;
+}
+
+
+/*
+align-items
+flex start urut diawal
+flex end urut di akhir
+conter urut tengah
+stretch tinggi sama container
+base line urut garis tengah*/
+
+.container3 {
+    width: 600px;
+    height: 400px;
+    border: 5px solid #666;
+    margin: 30px auto;
+    padding: 5px;
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    align-items: stretch;
+   }
+
+   .container3 div {
+    width: 120px;
+    background-color: blue;
+    margin: 2px;
+}
+
+/*
+aligh-content sama spt aligh-item tapi untuk items lebih dari satu baris*/
+
+
+
+/*
+order untuk mengubah urutan content*/
+
+.container4 {
+    width: 600px;
+    height: 400px;
+    border: 5px solid #666;
+    margin: 30px auto;
+    padding: 5px;
+    display: flex;
+    box-sizing: border-box;
+   }
+
+.container4 div {
+    width : 120px;
+    background-color: blue;
+    margin: 2px;
+}
+
+.satu {order: 3;}
+.dua {order: 4;}
+.tiga {order: 2;}
+.empat {order: 1;}
+
+.container4 .satu {
+    flex-grow: 5;
+}
+
+/* flexgrow untuk mengatur tinggi dan lebar sesuai dengan valuenya */
+
+/* align-self untuk mengatur perilaku penjajaran sebuah item yang spesifik terhadap cross axis(untuk satu elemen saja
+*/
+
+.container5 {
+    width: 600px;
+    height: 400px;
+    border: 5px solid #666;
+    margin: 30px auto;
+    padding: 5px;
+    display: flex;
+    box-sizing: border-box;
+   }
+
+.container5 div {
+    width: 120px;
+    background-color: blue;
+    margin: 2px;
+}
+
+.container5 div.satuu {
+    flex: 3;
+    align-self: flex-end;
+}
+
+.container5 div.duaa {
+    flex: 1;
+    align-self: flex-start;
+}
+
+.container5 div.empatt {
+    flex: 1;
+    align-self: center;
+}

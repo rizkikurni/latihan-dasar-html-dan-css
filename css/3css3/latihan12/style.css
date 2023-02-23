@@ -1,0 +1,70 @@
+/*
+value transition
+perperty, durasi(ms/s)[wajib], fungsi, delay
+
+properti yang bisa dianimasikan dengan halus
+
+backgroung color, position, size
+border
+color
+filter
+font size
+line height
+top left bottom right
+margin padding
+width height
+opacity
+transform
+word spacing
+letter spacing
+
+non animasi
+
+font family
+display
+position
+*/
+
+.satu {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+.satu:hover {
+    transform: rotate(480deg);
+    transition: 1s;
+}
+
+.container {
+    margin: auto;
+    border: 5px solid black;
+}
+
+.dua {
+    width: 200px;
+    height: 200px;
+    background-color: violet;
+    transition: all 1s  ease-in;
+}
+
+.container:hover .dua {
+    transform: rotate(360deg);
+    margin-left: 800px;
+    background-color: yellow;
+}
+
+/*
+timing fungsion value:
+ease
+ease-in
+ease-out
+ease-in-out
+linear
+cubic-bezier(w,x,y,z)
+*/
+
+/*
+delay m/ms
+*/
+

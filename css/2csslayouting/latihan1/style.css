@@ -1,0 +1,18 @@
+.link {
+    color: red;
+}
+.link a {
+    color: inherit;
+}
+.head {
+    background-color: brown;
+}
+.main span {
+    color: blue;
+}
+.dp a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+    display: inline-block;
+    width: 100px;
+}

@@ -1,0 +1,6 @@
+h1 {
+    font-size: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: 0 0 10px red, 0 0 20px blue;
+}

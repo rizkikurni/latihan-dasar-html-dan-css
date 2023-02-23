@@ -1,0 +1,32 @@
+body {
+    height: 3000px;
+    width: 3000px;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    position: absolute ;
+}
+
+.satu {
+    background-color: blue;
+    z-index: 1;
+}
+
+.dua {
+    background-color: violet;
+}
+
+.tiga {
+    background-color: green;
+}
+
+.empat {
+    background-color: red;
+    position: fixed;
+    top: 100px;
+    bottom: 100px;
+    left: 100px;
+    right: 100px;
+}

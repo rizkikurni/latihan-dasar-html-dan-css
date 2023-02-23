@@ -1,0 +1,35 @@
+/*
+sintax animation
+@keyframe nama animasi {
+    from {
+        [property-css]
+    }
+
+    to {
+        [property-css]
+    }
+}
+
+value animasion
+[name] [durasion] [timing-function] [delay] [interation-count] [directiion] [fil-mode] [play-state]
+*/
+
+.satu {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.satu:hover {
+    animation: animasi 2s ease infinite;
+}
+
+@keyframes animasi {
+    form {
+        width: 200px;
+    }
+
+    to {
+        width: 500px;
+    }
+}

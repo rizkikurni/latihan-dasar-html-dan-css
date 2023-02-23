@@ -1,0 +1,53 @@
+/*
+value filter
+brightness (angka , %)
+contrast (angka , %)
+saturate (angka , %)
+grayscale (angka , %)
+hue-rotate (deg)
+sepia (angka , %)
+invert (angka , %)
+opacity (angka , %)
+drop-shadow (sama spt box shadow )=bisa digunakan teks atau gambar 
+*/
+
+
+.satu {
+    filter: blur(10px);
+}
+
+.dua {
+    filter: brightness(200%);
+}
+
+.tiga {
+    filter: contrast(300%) ;
+}
+
+.empat {
+    filter: saturate(200%);
+}
+
+.lima {
+    filter: grayscale(70%);
+}
+
+.emam {
+    filter: sepia(100%);
+}
+
+.tujuh {
+    filter: hue-rotate(+100deg);
+}
+
+.delapan {
+    filter: invert(100%);
+}
+
+.sembilan {
+    filter: opacity(.25);
+}
+
+.sepuluh {
+    filter: drop-shadow(5px 5px 5px black);
+}

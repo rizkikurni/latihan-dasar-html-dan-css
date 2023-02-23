@@ -1,0 +1,48 @@
+/*
+scale, scalex, scaley(angka)
+rotate, rotate x , rotate y (deg)
+skew, skew x , skew y (deg)
+translate, translate x, translate y (px)
+*/
+
+.kotak  {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 50px auto 0;
+    transform: scale(2, 1);
+}
+
+.satu {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 50px auto 0;
+}
+
+.satu:hover {
+    transform: rotate(90deg);
+    transition: 1s;
+}
+
+.tiga {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 50px auto 0;
+}
+
+.tiga:hover {
+    transform: skew(40deg);
+}
+
+.empat {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 50px auto 0;
+}
+
+.empat:hover {
+    transform: translate(50px, 100px);
+}

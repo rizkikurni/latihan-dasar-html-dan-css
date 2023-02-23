@@ -1,0 +1,119 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ddd;
+    line-height: 1.65;
+    padding-bottom: 1000px;
+}
+
+/* latihan 1 */
+
+.container1 {
+    width: 800px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.kolom-utama {
+    flex: 3;
+    order: 2;
+}
+
+.sidebar-satu {
+    flex: 1;
+    order: 1;
+}
+
+.sidebar-dua {
+    flex: 1;
+    order: 3;
+}
+/* akhir latihan 1 */
+
+
+/* Latihan 2 */
+
+.container2 {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+.layanan {
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: tomato;
+    margin-bottom: 20px;
+}
+
+/* latihan 3 */
+
+.container3 {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+.card {
+    border: 1px solid grey;
+    border-radius: 15px;
+    background-color: white;
+    overflow: hidden;
+    margin: 10px;
+    text-align: center;
+}
+
+.card .header {
+    height: 150px;
+    background-color: rgb(102, 95, 95);
+}
+
+
+/* latihan 4 */
+
+.container4 {
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    border: 5px solid black;
+    display: flex;
+}
+
+.kotak {
+    width: 100px;
+    height: 100px;
+    background-color: burlywood;
+    margin: auto;
+    display: flex;
+}
+
+.kotak span {
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+/* renponsive */
+@media(min-width: 600px) {
+    .container2 {
+        display: flex;
+        justify-content: space-between;    
+    }
+
+    .layanan {
+        width: 30%;
+    }
+
+    .container3 {
+        display: flex;
+    }
+}

@@ -1,0 +1,23 @@
+.hello:link {
+    color: blueviolet;
+}
+.hello:hover {
+    color: crimson;
+    font-size: 20px;
+}
+.hello:active {
+    color: yellow;
+}
+.hello:visited {
+    color: green;
+}
+
+li:first-child p {
+    color: blue;
+}
+li:last-child p {
+    font-size: 20px;
+}
+li:nth-child(2n) {
+    color:chartreuse
+}
