@@ -1,2 +1,2 @@
 # latihan-dasar-html-dan-css
-html dan css merupakan bahasa programing pertama saya
+html dan css merupakan program pertama yang saya buat
